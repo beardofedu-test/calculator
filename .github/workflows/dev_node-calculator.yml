@@ -37,7 +37,7 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: node-calculator
-        slot-name: node-calculator-staging
+        slot-name: staging
         publish-profile: ${{ secrets.AZURE_APPSERVICE_DEV }}
         package: .
 
