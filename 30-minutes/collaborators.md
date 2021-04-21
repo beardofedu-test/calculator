@@ -12,7 +12,7 @@ Before you begin flipping switches and adjusting dials, it is important to land 
 
 Outside of the simplest branching strategy, the GitHub Flow, a lot of people use a strategy that looks like this:
 
-[img of main < dev < features ]
+![main feature dev workflow](img/GitHub-Flow-main-dev-feature.png)
 
 In this workflow, contributors create branches off of the `dev` branch, called `feature` branches. The changes on this `feature` branch are merged into the `dev` branch and after a collection of changes (from other `feature` branches) have been made to the `dev` branch it is merged into the `main` branch. The merging of the `dev` branch into the `main` branch might coincide with a new release or major update to the project.
 
