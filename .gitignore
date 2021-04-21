@@ -1,4 +1,4 @@
 .npm
 node_modules/
 out/
-.xcf
+*.xcf
