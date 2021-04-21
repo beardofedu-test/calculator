@@ -1,1 +1,3 @@
-This file will contain information about branching for deployments.
+## Branch based deployments
+
+In this repository, we have connected our Azure App Service to deploy to our production and staging branches when a commit or merge occurs on either the `main` or `dev` branch. While automatically deploying to `dev` branch to our staging area is helpful, it might be more useful to actually deploy directly from the various `feature` branches being created by the repository collaborations.
