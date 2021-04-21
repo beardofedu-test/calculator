@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://go.microsoft.com/fwlink/?linkid=2134798
 # More GitHub Actions for Azure: https://go.microsoft.com/fwlink/?linkid=2135048
 
-name: Azure App Service - node-calculator(Production), Build and deploy NodeJS app
+name: Azure App Service - node-calculator(dev)
 
 on:
   push:
@@ -38,6 +38,6 @@ jobs:
       with:
         app-name: node-calculator
         slot-name: node-calculator-dev
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_43505B63C0E246B5B4FC8EC946FE9F5A }}
+        publish-profile: ${{ secrets.AZURE_APPSERVICE_DEV }}
         package: .
 
