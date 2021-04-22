@@ -35,7 +35,7 @@ BODY
     padding: 25px;
     margin: 0 auto;
     position: relative;
-    background-image: url(images/background.png);
+    background-image: url(background.png);
     background-size: 300px 531px;
     background-repeat: no-repeat;
     background-position: center top;
